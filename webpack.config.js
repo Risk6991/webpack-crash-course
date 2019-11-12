@@ -45,7 +45,8 @@ module.exports = {
     ]
   },
   devServer: {
-    contentBase: outputPath
+    contentBase: outputPath,
+    port: 3000
   },
   plugins: [
     new HtmlWebPackPlugin({
